@@ -47,12 +47,12 @@ function EditarCliente() {
 
     return (
         <>
-            <h1 className="font-black text-4xl text-orange-900">Editar Cliente</h1>
+            <h1 className="font-black text-4xl text-blue-900">Editar Cliente</h1>
             <p className="mt-3">A continuación podrás modificar los datos de un cliente</p>
 
             <div className="flex justify-end">
                 <button
-                    className="bg-orange-800 text-white px-3 py-1 font-bold uppercase"
+                    className="bg-blue-800 text-white px-3 py-1 font-bold uppercase"
                     onClick={() => navigate(-1)}
                 >
                     Volver
@@ -74,8 +74,8 @@ function EditarCliente() {
 
                     <input 
                         type="submit"
-                        className='mt-5 w-full bg-orange-800 p-3 uppercase font-bold text-white text-lg'
-                        value="Actualizar cliente"
+                        className='mt-5 w-full bg-blue-800 p-3 uppercase font-bold text-white text-lg'
+                        value="Guardar Cambios"
                     />
                 </Form>
             </div>

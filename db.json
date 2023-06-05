@@ -1,6 +1,14 @@
 {
   "clientes": [
     {
+      "nombre": "Juan (Actualizado)",
+      "empresa": "Codigo Con Juan",
+      "email": "juan@juan.com",
+      "telefono": "102013313",
+      "notas": "Nueva Nota",
+      "id": 1
+    },
+    {
       "nombre": "Karen",
       "empresa": "Codigo Con Juan",
       "email": "karen_nuevo@juan.com",
@@ -9,20 +17,18 @@
       "id": 2
     },
     {
-      "nombre": "Miguel Pe",
-      "empresa": "Codigo Con Juan",
+      "id": 4,
+      "nombre": "Miguel",
+      "telefono": 319381983,
       "email": "miguel@juan.com",
-      "telefono": "319381983",
-      "notas": "aef",
-      "id": 4
+      "empresa": "Codigo Con Juan"
     },
     {
-      "nombre": "Pedro23",
-      "empresa": "Codigo Con Juan",
+      "id": 5,
+      "nombre": "Pedro",
+      "telefono": 1398198938,
       "email": "pedro@juan.com",
-      "telefono": "1398198938",
-      "notas": "fghh",
-      "id": 5
+      "empresa": "Codigo Con Juan"
     },
     {
       "nombre": "Juan Desde React",
@@ -31,14 +37,6 @@
       "telefono": "10901",
       "notas": "El Cliente desea un ecommerce",
       "id": 6
-    },
-    {
-      "nombre": "David",
-      "empresa": "125",
-      "email": "david.achutegui@gmail.com",
-      "telefono": "64856975",
-      "notas": "q",
-      "id": 9
     }
   ]
 }
